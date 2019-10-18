@@ -30,11 +30,11 @@ it should be possible to use them on the OS of your choice.
 - [Setup on a Raspberry Pi](deviceSetup/raspberryPi.md) - Includes instructions for a local web server.
 
 
-## `config.json` Setups
-
-**Coming soon**
-
-
 ## "Real World" Setups
 
-**Comming soon**
+- [John Rhodes Community Centre](realWorld/johnRhodes.md) - To be installed very soon.
+
+
+## `config.json` Tips and Tricks
+
+**Coming soon**
