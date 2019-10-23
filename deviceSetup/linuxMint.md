@@ -160,7 +160,7 @@ Again, click the **+** button to add a **Custom Command**.
 
 ```console
 chromium-browser http://localhost/tv-display/?config=/tv-assets/config
-  --start-fullscreen --kiosk --noerrdialogs --disable-translate
+  --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate
   --no-first-run --fast --fast-start --disable-infobars
   --password-store=basic
 ```
