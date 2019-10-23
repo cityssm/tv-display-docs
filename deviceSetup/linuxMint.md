@@ -109,11 +109,17 @@ Clone the tv-display repository.
 If successful, you should now be able to view the default configuration by visiting
 http://localhost/tv-display
 
+If required, clone the tv-display-ssm-public repository as well.
+
+```bash
+/var/www/html$  sudo git clone https://github.com/cityssm/tv-display-ssm-public.git
+```
+
 Make a directory for the display's custom content.
 
 ```bash
 /var/www/html$  sudo mkdir tv-assets
-/var/www/html$  chmod 777 tv-assets
+/var/www/html$  sudo chmod 777 tv-assets
 ```
 
 For help getting started, copy over `template-offline.json` from the `tv-display/config` directory.

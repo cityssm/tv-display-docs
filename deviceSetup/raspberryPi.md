@@ -77,6 +77,12 @@ Clone the tv-display repository.
 If successful, you should now be able to view the default configuration by visiting
 http://localhost/tv-display
 
+If required, clone the tv-display-ssm-public repository as well.
+
+```bash
+/var/www/html$  sudo git clone https://github.com/cityssm/tv-display-ssm-public.git
+```
+
 Make a directory for the display's custom content.
 
 ```bash
