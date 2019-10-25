@@ -74,7 +74,7 @@ Clone the tv-display repository.
   sudo git clone https://github.com/cityssm/tv-display.git
 ```
 
-If successful, you should now be able to view the default configuration by visiting
+If successful, you should now be able to view the welcome configuration by visiting
 http://localhost/tv-display
 
 If required, clone the tv-display-ssm-public repository as well.

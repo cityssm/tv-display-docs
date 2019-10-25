@@ -46,21 +46,14 @@ The John Rhodes Community Centre setup uses the following components.
     },
     {
       "contentType": "imageList",
-      "backgroundImages": "http://remoteWebServer/image-list-1/files.json"
+      "backgroundImages": "http://remoteWebServer/image-list-rhodes/files.json"
     },
     {
       "contentType": "clock"
     },
     {
       "contentType": "imageList",
-      "backgroundImages": "http://remoteWebServer/image-list-2/files.json"
-    },
-    {
-      "contentType": "clock"
-    },
-    {
-      "contentType": "imageList",
-      "backgroundImages": "http://remoteWebServer/image-list-3/files.json"
+      "backgroundImages": "http://remoteWebServer/image-list-community-centres/files.json"
     }
   ]
 }
@@ -68,8 +61,11 @@ The John Rhodes Community Centre setup uses the following components.
 ```
 
 The above configuration alternates between displaying a clock and displaying an image list.
-Three different image lists are used.  The image lists rely on `files.json` files
-from the web server.
+Two different image lists are used.
+- `image-list-rhodes` is for content specific to the location, and shown exclusively at the John Rhodes Community Centre.
+- `image-list-community-centres` is for content that is shown at multiple community centres.
+
+Each image list relies on a `files.json` file, which list the names of the files to display.
 
 
 ## How Is It Updated?
