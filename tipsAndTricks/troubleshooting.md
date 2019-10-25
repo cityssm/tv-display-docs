@@ -26,7 +26,6 @@ and as more displays are installed.
 
 
 
-
 ### Some of my content doesn't display correctly or doesn't fit on my screen.
 
 When new content types are developed, they are written to work on their target displays.
@@ -37,3 +36,10 @@ For best display results:
 - Use a current, feature rich web browser for your display, like Google Chrome (Chromium on Linux) or Mozilla Firefox.
 
 - Use a 1080p television display, or a widescreen monitor with 1920 x 1080 resolution.
+
+
+## How do I make the toolbar at the bottom of the screen go away?
+
+Move the mouse up a bit.  The toolbar appears when your mouse is at the bottom of the screen.
+
+You can put the mouse cursor right in the middle of the display.  A CSS rule will hide it.
