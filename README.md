@@ -35,6 +35,6 @@ it should be possible to use them on the OS of your choice.
 - [John Rhodes Community Centre](realWorld/johnRhodes.md) - To be installed very soon.
 
 
-## `config.json` Tips and Tricks
+## Tips and Tricks
 
-**Coming soon**
+- [Troubleshooting Tips](tipsAndTricks/troubleshooting.md)
