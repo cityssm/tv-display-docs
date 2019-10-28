@@ -39,10 +39,14 @@ Install all available updates.
 
 ## Install Additional Software
 
+Some of this software might already be installed.
+For example, newer versions of Raspbian have the
+`chromium` and `chromium-codecs-ffmpeg-extra` packages already.
+
 In the Terminal, run:
 
 ```bash
-$  sudo apt-get install chromium chromium-codecs-ffmpeg chromium-codecs-ffmpeg
+$  sudo apt-get install chromium chromium-codecs-ffmpeg
 $  sudo apt-get install xscreensaver
 $  sudo apt-get install unclutter
 ```
@@ -130,7 +134,7 @@ Using the nano editor, create a file with the following text.
 [Desktop Entry]
 Type=Application
 Name=Chromium
-Exec=chromium-browser http://localhost/tv-display/?config=/tv-assets/config --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars  --password-store=basic
+Exec=chromium-browser http://localhost/tv-display/?config=/tv-assets/config --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --password-store=basic
 ```
 
 Use <kbd>Ctrl</kbd> <kbd>O</kbd> to save the file.  Use <kbd>Ctrl</kbd> <kbd>X</kbd> to exit.

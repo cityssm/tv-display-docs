@@ -40,6 +40,6 @@ For best display results:
 
 ## How do I make the toolbar at the bottom of the screen go away?
 
-Move the mouse up a bit.  The toolbar appears when your mouse is at the bottom of the screen.
+**Move the mouse up a bit.**  The toolbar appears when your mouse is at the bottom of the screen.
 
 You can put the mouse cursor right in the middle of the display.  A CSS rule will hide it.
