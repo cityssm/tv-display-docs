@@ -37,4 +37,5 @@ it should be possible to use them on the OS of your choice.
 
 ## Tips and Tricks
 
-- [Troubleshooting Tips](tipsAndTricks/troubleshooting.md)
+- [Tips](tipsAndTricks/tips.md)
+- [Troubleshooting](tipsAndTricks/troubleshooting.md)
