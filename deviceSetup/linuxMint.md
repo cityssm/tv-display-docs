@@ -187,7 +187,7 @@ chromium-browser http://localhost/tv-display/?config=/tv-assets/config
   --password-store=basic
 ```
 
-*Note that if you're TV Display application is running on another machine,
+*Note that if your TV Display application is running on another machine,
 the website address should be changed accordingly.*
 
 - Set the "Startup delay" to **10 seconds**.
