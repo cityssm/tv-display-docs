@@ -110,7 +110,7 @@ while displaying a clock in between.
 ```
 
 For easier refreshing of the imageList `files.json` files, download the
-`FilesJsonGenerator.jar` from the [cityssm/tv-display/filesJSON repository](https://github.com/cityssm/tv-display-filesJSON).
+`FilesJsonGenerator.jar` from the [cityssm/tv-display-filesJSON repository](https://github.com/cityssm/tv-display-filesJSON).
 
 ```bash
 /var/www/html/tv-assets $
