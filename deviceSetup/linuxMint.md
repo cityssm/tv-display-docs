@@ -125,7 +125,9 @@ Clone the tv-display repository.
 If successful, you should now be able to view the welcome configuration by visiting
 http://localhost/tv-display
 
-If required, clone the tv-display-ssm-public repository as well.
+If required, clone the [tv-display-ssm-public repository](https://github.com/cityssm/tv-display-ssm-public) as well.
+It contains additional content specific to City of Sault Ste. Marie TV displays, like a transit departure clock
+and a social media advertisement.
 
 ```bash
 /var/www/html$  sudo git clone https://github.com/cityssm/tv-display-ssm-public.git
