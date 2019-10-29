@@ -42,7 +42,9 @@ Install all available updates.
 
 ![Screensaver in Application Menu](linuxMint-menu-screensaver.png)
 
-![Screensaver in Application Menu](linuxMint-screensaver.png)
+Select "Screensaver".
+
+![Screensaver Window](linuxMint-screensaver.png)
 
 - Set "Delay before starting the screensaver" to **Never**.
 - Turn off "Lock the computer when put to sleep".
@@ -53,10 +55,24 @@ Install all available updates.
 
 ![Power Management in Application Menu](linuxMint-menu-powerManagement.png)
 
-![Power Management in Application Menu](linuxMint-powerManagement.png)
+Select "Power Management".
+
+![Power Management Window](linuxMint-powerManagement.png)
 
 - Set "Turn off the screen when inactive for" to **Never**.
 - Set "Suspend when inactive for" to **Never**.
+
+
+## Set Up Auto Logon
+
+![Login Window in Application Menu](linuxMint-menu-loginWindow.png)
+
+Select "Login Window".
+
+![Login Window Configuration](linuxMint-loginWindow.png)
+
+- Navigate to the "Users" tab.
+- Under "Automatic login", set the "Username" field to the main user on the machine.
 
 
 ## Install Additional Software
@@ -71,7 +87,7 @@ Search for each of the following applications.  Click on them to see their detai
 
 ### All Installations
 
-- **Chromium** (the browser that will display the application)
+- **Chromium-browser** (the browser that will display the application)
 - **Chromium-codecs-ffmpeg** and **Chromium-codecs-ffmpeg-extra** (optional for increased video support)
 - **Unclutter** (hides the mouse cursor when the mouse isn't moving)
 
