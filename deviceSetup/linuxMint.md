@@ -20,8 +20,24 @@ The instructions below include details for two types of installations, depending
 ## Prerequisites
 
 - A computer running Linux Mint.  (See the [Linux Mint Installation Guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/) for assistance.)
+
 - A network connection for the setup process.
   Once set up, the machine should be able to run offline if the local installation steps are followed.
+
+
+### Setup Recommendations
+
+Although not required, some of the following settings offered during the installation process
+may help later.
+
+- If you can have a network connection during the setup process,
+  it may reduce the number of updates to process later.
+
+- When asked, select "Install third-party software for graphics and Wi-Fi hardware, Flash, MP3 and other media".
+
+- If the computer will have no other purpose, select "Erase disk and install Linux Mint".
+
+- When given the option, select "Log in automatically".
 
 
 ## Update the Computer
@@ -88,7 +104,7 @@ Search for each of the following applications.  Click on them to see their detai
 ### All Installations
 
 - **Chromium-browser** (the browser that will display the application)
-- **Chromium-codecs-ffmpeg** and **Chromium-codecs-ffmpeg-extra** (optional for increased video support)
+- **Chromium-codecs-ffmpeg** or **Chromium-codecs-ffmpeg-extra** (for increased video support)
 - **Unclutter** (hides the mouse cursor when the mouse isn't moving)
 
 ### Local Installations Only
