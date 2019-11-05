@@ -198,7 +198,10 @@ For easier refreshing of the imageList `files.json` files, download the
 
 ![Startup Applications](linuxMint-startupApplications.png)
 
-Disable all of the startup applications in the list.
+Most of the startup applications can be safely disabled to free up resources
+and reduce the chance of a notification appearing on the display.
+If "Cinnamon Settings Daemon - xrandr" is in the list, keep it enabled
+as it makes some of the display settings work smoother.
 
 First we'll add the application to make the mouse cursor disappear when its
 inactive. Click the **+** button to add a **Custom Command**.
