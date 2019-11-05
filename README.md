@@ -45,6 +45,7 @@ it should be possible to use them on the OS of your choice.
 
 - Civic Centre - Clerk's Department
 - Northern Community Centre - Seniors 55+
+- Seniors' Drop-In Centre
 
 ### In the Works
 
@@ -52,7 +53,6 @@ it should be possible to use them on the OS of your choice.
 - Dennis Street Bus Terminal
 - John Rhodes Community Centre - [Case Study](realWorld/johnRhodes.md)
 - Northern Community Centre
-- Seniors' Drop-In Centre
 
 
 ## Tips and Tricks
