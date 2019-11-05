@@ -11,6 +11,18 @@ around the city.
 This can greatly reduce the chance of showing content that is out of date,
 and scripts that have been updated.
 
+**In Chromium:**
+
+- Open up the Settings screen.
+- The left-hand menu may or may not be displayed.  If not, open it.
+- Under "Advanced", select "Privacy and security".
+- Click "Site Settings".
+- Click "Cookies and site data".
+- The setting name varies greatly by Chromium version.
+  It could be one of the following.
+  - Most recently, make sure "Clear cookies and site data when you quit Chromium" is on.
+  - In older versions, make sure "Keep local data only until you quit the browser" is on.
+
 
 ## If network connectivity is ever questionable, run a local web server.
 
