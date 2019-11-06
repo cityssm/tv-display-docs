@@ -44,12 +44,12 @@ it should be possible to use them on the OS of your choice.
 ![Seniors TV Display at the Northern Community Centre](realWorld/nccSeniors.jpg)
 
 - Civic Centre - Clerk's Department
+- Civic Centre - Lobby
 - Northern Community Centre - Seniors 55+
 - Seniors' Drop-In Centre
 
 ### In the Works
 
-- Civic Centre - Lobby
 - Dennis Street Bus Terminal
 - John Rhodes Community Centre - [Case Study](realWorld/johnRhodes.md)
 - Northern Community Centre
