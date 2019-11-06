@@ -1,4 +1,4 @@
-# How to Setup a TV Display using Linux Mint
+# How to Setup a TV Display using Linux Mint Cinnamon
 
 The instructions below describe the process of setting up a
 [Linux Mint](https://www.linuxmint.com/) machine to run the TV Display.
@@ -24,7 +24,7 @@ depending on where the TV Display application is hosted.
 
 ## Prerequisites
 
-- A computer running Linux Mint.
+- A computer running Linux Mint Cinnamon edition.
   (See the [Linux Mint Installation Guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
   for assistance.)
 
