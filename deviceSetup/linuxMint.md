@@ -220,7 +220,7 @@ inactive. Click the **+** button to add a **Custom Command**.
 - Set the "Startup delay" to **10 seconds**.
 - Click Add.
 
-Next, add a startup aaplication for *one* web browser.
+Next, add a startup application for *one* web browser.
 
 ### Firefox Web Browser
 
