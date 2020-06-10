@@ -1,7 +1,5 @@
 # Real World Installation - John Rhodes Community Centre
 
-**To be installed very soon**
-
 ![John Rhodes Setup](johnRhodes.png)
 
 The John Rhodes Community Centre setup uses the following components.
@@ -20,7 +18,7 @@ The John Rhodes Community Centre setup uses the following components.
 **Web Server**
 
 - Hosts folders of images.
-- Each folder contains a `files.json` file, listing the folder contents.
+- Each folder contains a `files.json.asp` file which lists the image folder contents (*.jpg and *.png) on the fly.
 
 
 ## What Does the `config.json` Look Like?
@@ -46,14 +44,14 @@ The John Rhodes Community Centre setup uses the following components.
     },
     {
       "contentType": "imageList",
-      "backgroundImages": "http://remoteWebServer/image-list-rhodes/files.json"
+      "backgroundImages": "http://remoteWebServer/image-list-rhodes/files.json.asp"
     },
     {
       "contentType": "clock"
     },
     {
       "contentType": "imageList",
-      "backgroundImages": "http://remoteWebServer/image-list-community-centres/files.json"
+      "backgroundImages": "http://remoteWebServer/image-list-community-centres/files.json.asp"
     }
   ]
 }
@@ -65,7 +63,7 @@ Two different image lists are used.
 - `image-list-rhodes` is for content specific to the location, and shown exclusively at the John Rhodes Community Centre.
 - `image-list-community-centres` is for content that is shown at multiple community centres.
 
-Each image list relies on a `files.json` file, which list the names of the files to display.
+Each image list relies on a `files.json.asp` file, which list the names of the image files in the directory to display.
 
 
 ## How Is It Updated?
@@ -73,9 +71,5 @@ Each image list relies on a `files.json` file, which list the names of the files
 Select Community Services users have read/write access to a folder on the web server
 where they can add and remove images for their current campaigns.
 
-After making changes, the users run the `FilesJsonGenerator.jar` application
-(from the [cityssm/tv-display-filesJSON repository](https://github.com/cityssm/tv-display-filesJSON))
-to regenerate the `files.json` files.
-
-Next time the corresponding image list is due to be displayed, the updates `files.json` file is
-retrieved with the current list of images for displaying.
+When the TV display accesses the corresponding `files.json.asp` file, the current contents
+of the folder are returned in the `files.json` format.  

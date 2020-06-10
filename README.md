@@ -45,13 +45,14 @@ it should be possible to use them on the OS of your choice.
 
 - Civic Centre - Clerk's Department
 - Civic Centre - Lobby
+- Transit - Dennis Street Bus Terminal
+- John Rhodes Community Centre - [Case Study](realWorld/johnRhodes.md)
 - Northern Community Centre - Seniors 55+
 - Seniors' Drop-In Centre
 
 ### In the Works
 
-- Dennis Street Bus Terminal
-- John Rhodes Community Centre - [Case Study](realWorld/johnRhodes.md)
+- Transit - Staff Room
 - Northern Community Centre
 
 

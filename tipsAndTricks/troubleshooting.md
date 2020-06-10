@@ -25,7 +25,6 @@ and as more displays are installed.
 - Look for errors under the Network tab in the browser's developer tools.
 
 
-
 ### Some of my content doesn't display correctly or doesn't fit on my screen.
 
 When new content types are developed, they are written to work on their target displays.
