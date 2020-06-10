@@ -6,10 +6,17 @@ All of these tips are optional, however most are used on the installations
 around the city.
 
 
-## Have Chromium (or whatever browser you use) clear the browser cache on exit.
+## Have your web browser clear the browser cache on exit.
 
 This can greatly reduce the chance of showing content that is out of date,
 and scripts that have been updated.
+
+**In Firefox:**
+
+- Open up the Preferences screen.
+- Select "Privacy & Security".
+- Scroll down to the "Cookies and Site Data" section.
+- Make sure "Delete cookies and site data when Firefox is closed" is checked.
 
 **In Chromium:**
 

@@ -117,10 +117,17 @@ details.  Click "Install" to install them.
 
 ### All Installations
 
-- **Chromium-browser** (the browser that will display the application)
+- **Unclutter** (hides the mouse cursor when the mouse isn't moving)
+
+The display needs a web browser to display the application.  You only need one.
+
+- **Firefox** (web browser)
+
+**OR**
+
+- **Chromium-browser** (web browser)
 - **Chromium-codecs-ffmpeg** or **Chromium-codecs-ffmpeg-extra**
   (for increased video support)
-- **Unclutter** (hides the mouse cursor when the mouse isn't moving)
 
 ### Local Installations Only
 
@@ -213,8 +220,32 @@ inactive. Click the **+** button to add a **Custom Command**.
 - Set the "Startup delay" to **10 seconds**.
 - Click Add.
 
-Next, we'll add the Chromium browser.
-Again, click the **+** button to add a **Custom Command**.
+Next, add a startup aaplication for *one* web browser.
+
+### Firefox Web Browser
+
+Click the **+** button to add a **Custom Command**.
+
+- Set the "Name" to **tv-display**.
+- Set the "Command" to the following, all on one line.
+  (It's only separated to make reading all of those switches easier.)
+
+```console
+firefox -kiosk http://localhost/tv-display/?config=/tv-assets/config
+```
+
+*Note that if your TV Display application is running on another machine,
+the website address should be changed accordingly.*
+
+- Set the "Startup delay" to **10 seconds**.
+- Click Add.
+
+You can test the success of the above command by highlighting the "tv-display"
+entry, and clicking the Run Now "gears" button.
+
+### Chromium Web Browser
+
+Click the **+** button to add a **Custom Command**.
 
 - Set the "Name" to **tv-display**.
 - Set the "Command" to the following, all on one line.
@@ -240,8 +271,7 @@ entry, and clicking the Run Now "gears" button.
 ## Restart the Computer
 
 On restart, the computer should load up the display with the configuration you
-copied over. Use <kbd>Alt</kbd> <kbd>F4</kbd> to leave the full screen Chromium
-browser.
+copied over. Use <kbd>Alt</kbd> <kbd>F4</kbd> to leave the full screen web browser.
 
 Now it's time to start customizing your content with the `config.json` file.
 (Documentation is the works.)
