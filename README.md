@@ -30,10 +30,11 @@ follows.
 Although these instructions are geared towards specific operating systems,
 it should be possible to use them on the OS of your choice.
 
--   [Setup on Linux Mint](deviceSetup/linuxMint.md) - Includes instructions for
-    a local web server.
--   [Setup on a Raspberry Pi](deviceSetup/raspberryPi.md) - Includes instructions
-    for a local web server.
+-   [Setup on Linux Mint](deviceSetup/linuxMint.md)<br />
+    Includes instructions for a local web server.
+
+-   [Setup on a Raspberry Pi](deviceSetup/raspberryPi.md)<br />
+    Includes instructions for a local web server.
 
 ## "Real World Sault Ste. Marie" Setups
 

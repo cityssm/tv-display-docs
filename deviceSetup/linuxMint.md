@@ -119,14 +119,18 @@ The display needs a web browser to display the application.  You only need one.
 **OR**
 
 -   **Chromium-browser** (web browser)
+
 -   **Chromium-codecs-ffmpeg** or **Chromium-codecs-ffmpeg-extra**
     (for increased video support)
 
 ### Local Installations Only
 
 -   **Geany** (for easier JSON editing)
+
 -   **Git** (for downloading and updating the TV Display application)
+
 -   **Nginx-light** (a web server for hosting the TV Display application)
+
 -   **Openjdk-11-jre** (runs the FilesJsonGenerator.jar application,
     Openjdk-8-jre or better should be fine)
 
@@ -145,13 +149,13 @@ The default folder location for nginx on Linux Mint is `/var/www/html`.
 Go to that directory.
 
 ```bash
-$  cd /var/www/html
+cd /var/www/html
 ```
 
 Clone the tv-display repository.
 
 ```bash
-/var/www/html$  sudo git clone https://github.com/cityssm/tv-display.git
+sudo git clone https://github.com/cityssm/tv-display.git
 ```
 
 If successful, you should now be able to view the welcome configuration by
@@ -163,14 +167,14 @@ as well. It contains additional content specific to City of Sault Ste. Marie
 TV displays, like a transit departure clock and a social media advertisement.
 
 ```bash
-/var/www/html$  sudo git clone https://github.com/cityssm/tv-display-ssm-public.git
+sudo git clone https://github.com/cityssm/tv-display-ssm-public.git
 ```
 
 Make a directory for the display's custom content.
 
 ```bash
-/var/www/html$  sudo mkdir tv-assets
-/var/www/html$  sudo chmod 777 tv-assets
+sudo mkdir tv-assets
+sudo chmod 777 tv-assets
 ```
 
 For help getting started, copy over `template-offline.json` from the
@@ -178,16 +182,16 @@ For help getting started, copy over `template-offline.json` from the
 groups of images (imageList content) while displaying a clock in between.
 
 ```bash
-/var/www/html$  cd tv-assets
-/var/www/html/tv-assets$  cp ../tv-display/config/template-offline.json config.json
+cd tv-assets
+cp ../tv-display/config/template-offline.json config.json
 ```
 
 For easier refreshing of the imageList `files.json` files, download the
 `FilesJsonGenerator.jar` from the [cityssm/tv-display-filesJSON repository](https://github.com/cityssm/tv-display-filesJSON).
 
 ```bash
-/var/www/html/tv-assets$  wget https://github.com/cityssm/tv-display-filesJSON/raw/master/dist/FilesJsonGenerator.jar
-/var/www/html/tv-assets$  wget https://github.com/cityssm/tv-display-filesJSON/raw/master/dist/generateFilesJSON.sh
+wget https://github.com/cityssm/tv-display-filesJSON/raw/master/dist/FilesJsonGenerator.jar
+wget https://github.com/cityssm/tv-display-filesJSON/raw/master/dist/generateFilesJSON.sh
 ```
 
 ## Setup the Startup Applications
@@ -274,8 +278,8 @@ Connect the machine to the Internet and open a Terminal.
 The following command will download the latest code from GitHub.
 
 ```bash
-$  cd /var/www/html/tv-display
-/var/www/html/tv-display$  sudo git pull origin master
+cd /var/www/html/tv-display
+sudo git pull origin master
 ```
 
 While you're connected to a network, visit the **Update Manager** application

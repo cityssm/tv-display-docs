@@ -20,12 +20,18 @@ and scripts that have been updated.
 **In Chromium:**
 
 -   Open up the Settings screen.
+
 -   The left-hand menu may or may not be displayed.  If not, open it.
+
 -   Under "Advanced", select "Privacy and security".
+
 -   Click "Site Settings".
+
 -   Click "Cookies and site data".
+
 -   The setting name varies greatly by Chromium version.
     It could be one of the following.
+
     -   Most recently, make sure "Clear cookies and site data when you quit Chromium" is on.
     -   In older versions, make sure "Keep local data only until you quit the browser" is on.
 
@@ -56,14 +62,14 @@ with the display's IP address.
 **Restart the machine**
 
 ```bash
-$  sudo reboot
+sudo reboot
 ```
 
 **Update the tv-display software**
 
 ```bash
-$  cd /var/www/html/tv-display
-/var/www/html/tv-display$  sudo git pull origin master
+cd /var/www/html/tv-display
+sudo git pull origin master
 ```
 
 _Note that the path to the tv-display software may vary by your installation.
@@ -76,16 +82,16 @@ you may lose your connection to the machine.
 It is recommended to run these commands using `screen`._
 
 ```bash
-$  screen
-$  sudo apt-get update
-$  sudo apt-get upgrade
+screen
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
 If you lose connection, restore your SSH connection, then reconnect to the
 `screen` using:
 
 ```bash
-$  screen -raAd
+screen -raAd
 ```
 
 To kill the screen when you are done, press <kbd>Ctrl</kbd> <kbd>A</kbd>, then <kbd>k</kbd>.
@@ -95,7 +101,7 @@ _It is recommended that you restart the display machine after updating._
 **Start the VNC Server**
 
 ```bash
-$ sudo x11vnc -safer -once -nopw -auth guess -display :0 -noxdamage
+sudo x11vnc -safer -once -nopw -auth guess -display :0 -noxdamage
 ```
 
 ## Want fancy fonts?  Install `typecatcher`.
@@ -103,7 +109,7 @@ $ sudo x11vnc -safer -once -nopw -auth guess -display :0 -noxdamage
 ![Typecatcher](typecatcher.png)
 
 ```bash
-$  sudo apt-get install typecatcher
+sudo apt-get install typecatcher
 ```
 
 Typecatcher is an application that makes it easy to install Google Fonts

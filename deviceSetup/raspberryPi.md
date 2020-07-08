@@ -16,6 +16,7 @@ depending on where the TV Display application is hosted.
 ## Prerequisites
 
 -   A Raspberry Pi computer running Raspbian.  (See the [Raspbian Installation Guide](https://www.raspberrypi.org/downloads/raspbian/) for assistance.)
+
 -   A network connection for the setup process.
     Once set up, the machine should be able to run offline if the local installation steps are followed.
 
