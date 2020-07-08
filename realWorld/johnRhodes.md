@@ -6,20 +6,19 @@ The John Rhodes Community Centre setup uses the following components.
 
 **TV Screen**
 
-- A standard 1080p television screen with an HDMI output connected to a Raspberry Pi.
+-   A standard 1080p television screen with an HDMI output connected to a Raspberry Pi.
 
 **Raspberry Pi**
 
-- A Raspberry Pi 2 Model B running Raspbian Buster.
-- Set up using [Raspberry Pi Device Setup](../deviceSetup/raspberryPi.md) documentation
-- Includes local web server installation.
-- Connected to the Internet over WiFi.
+-   A Raspberry Pi 2 Model B running Raspbian Buster.
+-   Set up using [Raspberry Pi Device Setup](../deviceSetup/raspberryPi.md) documentation
+-   Includes local web server installation.
+-   Connected to the Internet over WiFi.
 
 **Web Server**
 
-- Hosts folders of images.
-- Each folder contains a `files.json.asp` file which lists the image folder contents (*.jpg and *.png) on the fly.
-
+-   Hosts folders of images.
+-   Each folder contains a `files.json.asp` file which lists the image folder contents (_.jpg and _.png) on the fly.
 
 ## What Does the `config.json` Look Like?
 
@@ -55,16 +54,15 @@ The John Rhodes Community Centre setup uses the following components.
     }
   ]
 }
-
 ```
 
 The above configuration alternates between displaying a clock and displaying an image list.
 Two different image lists are used.
-- `image-list-rhodes` is for content specific to the location, and shown exclusively at the John Rhodes Community Centre.
-- `image-list-community-centres` is for content that is shown at multiple community centres.
+
+-   `image-list-rhodes` is for content specific to the location, and shown exclusively at the John Rhodes Community Centre.
+-   `image-list-community-centres` is for content that is shown at multiple community centres.
 
 Each image list relies on a `files.json.asp` file, which list the names of the image files in the directory to display.
-
 
 ## How Is It Updated?
 

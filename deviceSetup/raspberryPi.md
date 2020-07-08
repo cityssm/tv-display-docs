@@ -5,27 +5,25 @@ The instructions below describe the process of setting up a Raspberry Pi running
 Similar to the [Linux Mint setup instructions](SETUP-linuxMint.md), the instructions below include details for two types of installations,
 depending on where the TV Display application is hosted.
 
-- If the display machine will have good network connectivity,
-  the TV Display application can be hosted from a web server running on a different computer.
-  This is best if multiple displays will be used as the configuration can be centralized.
+-   If the display machine will have good network connectivity,
+    the TV Display application can be hosted from a web server running on a different computer.
+    This is best if multiple displays will be used as the configuration can be centralized.
 
-- If network connectivity will be an issue, or if only one display is needed,
-  the TV Display application can run on the Raspberry Pi itself.
-  There are additional steps to run a *local installation*, but it's still pretty easy.
-
+-   If network connectivity will be an issue, or if only one display is needed,
+    the TV Display application can run on the Raspberry Pi itself.
+    There are additional steps to run a _local installation_, but it's still pretty easy.
 
 ## Prerequisites
 
-- A Raspberry Pi computer running Raspbian.  (See the [Raspbian Installation Guide](https://www.raspberrypi.org/downloads/raspbian/) for assistance.)
-- A network connection for the setup process.
-  Once set up, the machine should be able to run offline if the local installation steps are followed.
-
+-   A Raspberry Pi computer running Raspbian.  (See the [Raspbian Installation Guide](https://www.raspberrypi.org/downloads/raspbian/) for assistance.)
+-   A network connection for the setup process.
+    Once set up, the machine should be able to run offline if the local installation steps are followed.
 
 ## Update the Pi
 
 To ensure things run smoothly, it's best to update all of the software on the computer to it's latest versions.
 
-*Important Note: Only type the terminal commands as they appear after the $ symbol.*
+_Important Note: Only type the terminal commands as they appear after the $ symbol._
 
 Open a Terminal, and run:
 
@@ -35,7 +33,6 @@ $  sudo apt-get upgrade
 ```
 
 Install all available updates.
-
 
 ## Install Additional Software
 
@@ -62,8 +59,8 @@ $  sudo apt-get install openjdk-11-jre
 
 ## Install and Configure the TV Display Application (Local Installations Only)
 
-*If you're installing the TV Display application on another server,
-documentation is coming, but will be very similar to the steps described below.*
+_If you're installing the TV Display application on another server,
+documentation is coming, but will be very similar to the steps described below._
 
 The default folder location for nginx on Raspbian is `/var/www/html`.  Go to that directory.
 
@@ -79,7 +76,7 @@ Clone the tv-display repository.
 ```
 
 If successful, you should now be able to view the welcome configuration by visiting
-http://localhost/tv-display
+<http://localhost/tv-display>
 
 If required, clone the tv-display-ssm-public repository as well.
 
@@ -120,7 +117,6 @@ For easier refreshing of the imageList `files.json` files, download the
   wget https://github.com/cityssm/tv-display-filesJSON/raw/master/dist/generateFilesJSON.sh
 ```
 
-
 ## Launch Chromium on Startup
 
 ```bash
@@ -139,13 +135,11 @@ Exec=chromium-browser http://localhost/tv-display/?config=/tv-assets/config --st
 
 Use <kbd>Ctrl</kbd> <kbd>O</kbd> to save the file.  Use <kbd>Ctrl</kbd> <kbd>X</kbd> to exit.
 
-
 ## Disable the Screensaver
 
 In the Raspbian menu under Preferences, look for Screensaver.
 
 Under the "Display Modes" tab, look for the "Mode" dropdown list.  Select "Disable Screen Saver".
-
 
 ## Restart the Computer
 
@@ -154,7 +148,6 @@ Use <kbd>Alt</kbd> <kbd>F4</kbd> to leave the full screen Chromium browser.
 
 Now it's time to start customizing your content with the `config.json` file.
 (Documentation is the works.)
-
 
 ## Appendix - Updating the TV Display Application (Local Installations Only)
 
